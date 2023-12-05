@@ -39,7 +39,7 @@ export default function Navbar() {
       >
         {isMenuOpen ? <RxCross2 /> : <IoMenu />}
         <div>
-          {!isMenuOpen && (
+          {isMenuOpen && (
             <div className="h-40 border transition-all w-28 p-2 text-base absolute right-0 shadow rounded bg-black">
               {navItem.map((nav) => {
                 return (
