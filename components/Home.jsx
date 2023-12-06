@@ -17,7 +17,7 @@ function Home() {
         />
       </div>
       <h1 className="text-center text-2xl font-semibold mt-3">
-        Hello, Its Rk Shawon
+        Hello, It&apos;s Rk Shawon
       </h1>
       <h2 className="text-center text-3xl font-semibold mt-3">
         I am Software Developer
