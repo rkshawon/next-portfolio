@@ -6,8 +6,8 @@ import { FaTwitter } from "react-icons/fa";
 
 function Home() {
   return (
-    <div className="mt-10 p-10 ">
-      <div className="inline-block rounded-full overflow-hidden border-2 bg-white border-white shadow-md">
+    <div className="mt-10 p-10 flex flex-col justify-center items-center">
+      <div className="inline-block overflow-hidden rounded-full border-2 border-black  bg-white  ">
         <Image
           src="/ai-image.png"
           alt="AI Image"
