@@ -15,6 +15,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         <div className="flex flex-col items-center">{children}</div>
+        <div className="bg-black h-20 mt-40 flex items-center justify-center text-white">
+          <p className="text-sm">
+            &copy; {new Date().getFullYear()} Rk Shawon | All Rights Reserved
+          </p>
+        </div>
       </body>
     </html>
   );

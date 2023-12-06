@@ -41,7 +41,7 @@ const skills = [
 
 export default function About() {
   return (
-    <div className="bg-[#111319] w-full  md:flex px-20 py-10 my-10">
+    <div className="bg-[#111319] w-full  md:flex px-10 lg:px-20 py-20 my-10">
       <div className="md:w-[40%] bg-red-100">
         <Image
           src="/about.png"
@@ -54,13 +54,16 @@ export default function About() {
       <div className="md:w-[60%] md:pl-20">
         <h1 className="text-4xl font-bold ">About me</h1>
         <p className="">
-          Im a Freelancer Front-end Developer with over 6 years of experience.
-          Im from San Francisco. I code and create web elements for amazing
-          people around the world. I like work with new people.
+          Hello! 👋 I'm Rk Shawon. I am a software developer. I specialize in
+          creating dynamic and engaging user experiences using cutting-edge
+          technologies like React and Next.js. I look forward to contributing my
+          skills to innovative projects and building solutions that make a
+          difference. Let's connect and explore the endless possibilities in the
+          world of software development together!
         </p>
         <div>
-          <h2 className="font-bold text-2xl mt-5">Skills</h2>
-          <div className="flex mt-5">
+          <h2 className="font-bold text-2xl mt-10">Skills</h2>
+          <div className="flex mt-3">
             {skills.map((skill) => {
               return (
                 <span key={skill.id}>

@@ -3,15 +3,15 @@ const Input = ({ placeholder }) => {
     <input
       typ="text"
       placeholder={placeholder}
-      className="w-[250px] md:w-[350px] lg:w-[450px] bg-black border-b-2 focus:outline-none focus:border-b-2 p-3 my-5"
+      className="w-[250px] md:w-[450px] bg-black border-b-2 focus:outline-none focus:border-b-2 p-3 my-5"
     />
   );
 };
 
 export default function Contact() {
   return (
-    <div className="my-20">
-      <h1 className="text-center text-2xl font-semibold my-3">
+    <div className="my-10">
+      <h1 className="text-center text-4xl font-semibold my-10">
         Connect with me
       </h1>
       <div className="bg-[#111319] p-10 flex flex-col rounded">
