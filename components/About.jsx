@@ -53,14 +53,15 @@ export default function About() {
       </div>
       <div className="md:w-[60%] md:pl-20">
         <h1 className="text-4xl font-bold ">About me</h1>
-        <p className="">
-          Hello! 👋 I'm Rk Shawon. I am a software developer. I specialize in
-          creating dynamic and engaging user experiences using cutting-edge
+        <p>
+          Hello! 👋 I&apos;m Rk Shawon. I am a software developer. I specialize
+          in creating dynamic and engaging user experiences using cutting-edge
           technologies like React and Next.js. I look forward to contributing my
           skills to innovative projects and building solutions that make a
-          difference. Let's connect and explore the endless possibilities in the
-          world of software development together!
+          difference. Let&apos;s connect and explore the endless possibilities
+          in the world of software development together!
         </p>
+
         <div>
           <h2 className="font-bold text-2xl mt-10">Skills</h2>
           <div className="flex mt-3">
